@@ -1,4 +1,4 @@
-*
+		*
 		{box-sizing: border-box;}
 
 		.row{
@@ -29,9 +29,23 @@
 			width: 60px;
 			height: 30px;
 			text-align: center;
-			background-color: pink;
+			
 			border:1px solid black;
 
+		}
+
+		section.b1{
+			background-color: blue;
+
+		}
+
+		section.b2{
+			background-color: pink;
+
+		}
+
+		section.b3{
+			background-color: purple;
 		}
 		@media (max-width: 767px){
 			.col-sm-12{
