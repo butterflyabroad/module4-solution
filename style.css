@@ -1,0 +1,98 @@
+#header-nav{
+	padding-top: 20px;
+	border-bottom: 2px solid black;
+	font-family: 'Oxygen', sans-serif;
+	padding: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+h1{
+	font-size: 2em;
+}
+
+button{
+	position:relative;
+	top:5px;
+}
+
+#collapsable-nav{
+	width: 100%;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #aaaaaa;
+  width: 100%;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#menu-top{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#home-tiles{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.menu-tile{
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border:1px solid gray;
+	box-shadow: 2px 5px #888888;
+	background-color: #dddddd;
+}
+
+.menu-tile h2{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.menu-tile p{
+	padding: 10px;
+
+}
+/*.col-xs-12{
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}*/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+	nav button{
+		visibility: hidden;
+	}
+    #nav-list
+    {
+    	visibility: hidden;
+    }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav button{
+		visibility: hidden;
+	}
+    #nav-list
+    {
+    	visibility: hidden;
+    }
+}
